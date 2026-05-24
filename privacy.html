@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fffaf3" />
+    <title>隐私政策 — 口袋喵 PhonePet</title>
+    <meta name="description" content="口袋喵（PhonePet）隐私政策" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%90%B1%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="/" class="brand">
+          <span class="brand-logo">🐱</span>
+          <span>口袋喵</span>
+        </a>
+        <div class="nav-links">
+          <a href="/privacy">隐私</a>
+          <a href="/terms">条款</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="doc">
+      <a class="doc-back" href="/">← 返回首页</a>
+      <h1>隐私政策</h1>
+      <div class="doc-meta">
+        最后更新：2026 年 5 月 23 日 · 应用名称：口袋喵（PhonePet）
+      </div>
+
+      <p>
+        口袋喵（以下简称"本应用"）由开发者 Edward Sun
+        独立开发并运营。我们重视您的隐私。本政策说明我们如何处理您在使用本应用过程中产生的数据。
+      </p>
+
+      <h2>1. 我们收集哪些数据</h2>
+      <p>
+        本应用<strong>不主动收集</strong>任何可识别您身份的个人信息（如姓名、电话、住址等）。在您使用功能时，以下数据会被临时处理：
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>数据类型</th>
+            <th>何时产生</th>
+            <th>是否离开您的设备</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>音频（语音）</strong></td>
+            <td>您按住麦克风说话时</td>
+            <td>✅ 会发送给 DashScope 语音识别服务做实时转写，转写完成后<strong>不留存</strong></td>
+          </tr>
+          <tr>
+            <td><strong>图像（摄像头帧）</strong></td>
+            <td>auto-look 开启时按一定间隔采样</td>
+            <td>✅ 会发送给 DashScope 视觉理解模型识别画面，<strong>不留存</strong></td>
+          </tr>
+          <tr>
+            <td><strong>文本（对话内容）</strong></td>
+            <td>您与宠物对话的文本</td>
+            <td>✅ 会发送给火山引擎 / DashScope 大语言模型生成回复，<strong>不留存</strong></td>
+          </tr>
+          <tr>
+            <td><strong>App 偏好</strong></td>
+            <td>您的小鱼余额、订阅等级、亲密度等</td>
+            <td>❌ 仅本地存于 iOS Documents 目录和 UserDefaults</td>
+          </tr>
+          <tr>
+            <td><strong>订阅信息</strong></td>
+            <td>App Store 订阅状态</td>
+            <td>由 Apple 管理，本应用读取订阅 receipt 用于解锁功能</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>2. 我们使用的第三方服务</h2>
+      <p>为实现核心功能，本应用调用以下第三方 AI 服务：</p>
+      <table>
+        <thead>
+          <tr>
+            <th>服务商</th>
+            <th>用途</th>
+            <th>数据类型</th>
+            <th>隐私政策</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>阿里云 DashScope</td>
+            <td>语音识别 / 语音合成 / 视觉理解</td>
+            <td>音频、图像</td>
+            <td><a href="https://www.aliyun.com/policy/privacy" target="_blank" rel="noopener">aliyun.com/policy/privacy</a></td>
+          </tr>
+          <tr>
+            <td>火山引擎（字节跳动）</td>
+            <td>对话生成</td>
+            <td>文本</td>
+            <td><a href="https://www.volcengine.com/docs/privacy" target="_blank" rel="noopener">volcengine.com/docs/privacy</a></td>
+          </tr>
+          <tr>
+            <td>Apple StoreKit</td>
+            <td>订阅与支付</td>
+            <td>仅 receipt</td>
+            <td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">apple.com/legal/privacy</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>我们仅在为您处理当前请求时把数据发送给上述服务，<strong>不会</strong>用于其他目的。</p>
+
+      <h2>3. 数据如何存储</h2>
+      <ul>
+        <li>
+          <strong>本地存储</strong>：您的对话历史、亲密度状态、小鱼余额等都存在您设备的 App 沙盒里（Documents/ +
+          UserDefaults）。卸载本应用时这些数据会全部删除。
+        </li>
+        <li>
+          <strong>云端存储</strong>：本应用目前<strong>不在我们自有服务器上</strong>存储任何用户数据。
+        </li>
+        <li><strong>不做云端同步</strong>：当前版本不支持跨设备同步，换设备即重新开始。</li>
+      </ul>
+
+      <h2>4. 我们不做的事</h2>
+      <ul>
+        <li>❌ <strong>不做用户跟踪 / 不收集广告标识符（IDFA）</strong></li>
+        <li>❌ <strong>不接入分析 / 埋点 / 第三方 SDK</strong></li>
+        <li>
+          ❌ <strong>不出售、不交换、不分享您的数据</strong>给任何第三方（仅上面提到的 AI 服务用于完成功能调用）
+        </li>
+        <li>❌ <strong>不要求您注册账号</strong>（订阅信息由 Apple 管理）</li>
+      </ul>
+
+      <h2>5. 儿童隐私</h2>
+      <p>
+        本应用面向 12
+        岁以上用户。我们不主动收集儿童信息。如果您是儿童的监护人并认为孩子在我们这里留下了信息，请联系我们。
+      </p>
+
+      <h2>6. 您的权利</h2>
+      <p>您可以随时：</p>
+      <ul>
+        <li><strong>删除本地数据</strong>：卸载本应用即可</li>
+        <li>
+          <strong>关闭摄像头/麦克风权限</strong>：iOS「设置 &gt; 隐私 &gt; 摄像头 / 麦克风」中可单独管理
+        </li>
+        <li><strong>取消订阅</strong>：iOS「设置 &gt; Apple ID &gt; 订阅」中操作，详见《服务条款》</li>
+      </ul>
+
+      <h2>7. 联系我们</h2>
+      <p>如有隐私问题，请通过以下方式联系：</p>
+      <ul>
+        <li>邮箱：<a href="mailto:pedwardsun@gmail.com">pedwardsun@gmail.com</a></li>
+        <li>问题反馈：通过 App Store 应用页面</li>
+      </ul>
+
+      <h2>8. 政策变更</h2>
+      <p>本政策可能随产品迭代修订。重大变更会在 App 内提示。当前版本为 v1.0。</p>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>© 2026 口袋喵 · Edward Sun</div>
+        <div class="footer-links">
+          <a href="/privacy">隐私政策</a>
+          <a href="/terms">服务条款</a>
+          <a href="mailto:pedwardsun@gmail.com">联系我们</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
